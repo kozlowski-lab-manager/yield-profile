@@ -37,7 +37,7 @@ In order to use our program to develop a mechanistic hypothesis for an unknown C
 1)	Run a withdrawing, neutral, donating, and hindered substrate from your scope.  Make sure that these substrates are as alike as possible, while only varying the necessary steric/electronic parameter.  Record the yields
 2)	Add these yields to a new row in our table
 3)	Replace our CSV file name with your CSV file name and run the program.
-4)	Your data point will appear on the UMAP plot marked as “10”.  Check with which mechanism it is clustered and where it is located on the plot for mechanistic information.
+4)	Your data point will appear on the UMAP plot marked as the highest number.  Check with which mechanism it is clustered and where it is located on the plot for mechanistic information.
 
 
 
