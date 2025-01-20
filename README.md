@@ -81,8 +81,8 @@ Original version: https://pmc.ncbi.nlm.nih.gov/articles/PMC4706235/
 Python version: https://github.com/aetilley/sigclust 
 
 ```python
-$pip install git+https://github.com/aetilly/sigclust.git
-$pip install git+https://github.com/aetilly/recclust.git
+$pip install git+https://github.com/aetilley/sigclust.git
+$pip install git+https://github.com/aetilley/recclust.git
 ```
 
 
