@@ -43,7 +43,7 @@ In order to use our program to develop a mechanistic hypothesis for an unknown C
 
 Installation
 ---------------------
-Jupyter notebook file can be downloaded.  To use the file, an environment needs to be created with several dependencies installed.  Most of this software can be installed using either the command line, or a conda environment.  Here are instructions for installing using the command line:
+Jupyter notebook file can be downloaded.  To use the file, an environment needs to be created with several dependencies installed.  This can be done by installing python and anaconda.  Make sure the following dependencies are also installed by typing them into the command line:
 
 Install pandas (https://pandas.pydata.org/docs/index.html):
 ```python
@@ -81,8 +81,16 @@ Original version: https://pmc.ncbi.nlm.nih.gov/articles/PMC4706235/
 Python version: https://github.com/aetilley/sigclust 
 
 ```python
-$pip install git+https://github.com/aetilley/sigclust.git
-$pip install git+https://github.com/aetilley/recclust.git
+$pip install git+https://github.com/aetilley/sigclust.git#egg=sigclust
+```
+If this does not work for you, you will need to manually install the program.  Get a github access token to your own account, and then type
+
+```python
+$git clone https://<username>:<token>@github.com/aetilley/sigclust.git
+```
+into the command line.  Make sure setup.py is downloaded into your directory, and then type:
+```python
+$sudo python setup.py install
 ```
 
 
