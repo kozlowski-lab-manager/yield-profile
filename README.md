@@ -10,8 +10,8 @@ Full Author List
 * Cameron B. Berlin
 * Paige E. Piszel
 * Weihao Zhu
-* Madeline E. Rotella
-* Marisa C. Kozlowski
+* Madeline E. Rotella*
+* Marisa C. Kozlowski*
 
   
 Introduction
