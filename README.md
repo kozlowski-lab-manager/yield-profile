@@ -17,7 +17,7 @@ Full Author List
 Introduction
 ------------
 We present Yield Fingerprints as an efficient way to obtain a mechanistic hypothesis.
-A publication describing the implementation of yield fingerprints can be found at `(https://doi.org/10.26434/chemrxiv-2025-mtljf)`.
+A publication describing the implementation of yield fingerprints can be found at `https://doi.org/10.26434/chemrxiv-2025-mtljf`.
 
 If you are using our method in your research, please remember to cite our publication.
 
