@@ -1,4 +1,4 @@
-# yield-fingerprint
+# yield-profile
 
 Full Author List
 ----------------
@@ -74,24 +74,6 @@ $pip install scikit-learn
 Installing UMAP (https://umap-learn.readthedocs.io/en/latest/):
 ```python
 $pip install umap-learn
-```
-
-Sigclust and Reclust:
-
-Original version: https://pmc.ncbi.nlm.nih.gov/articles/PMC4706235/
-Python version: https://github.com/aetilley/sigclust 
-
-```python
-$pip install git+https://github.com/aetilley/sigclust.git#egg=sigclust
-```
-If this does not work for you, you will need to manually install the program.  Get a github access token to your own account, and then type
-
-```python
-$git clone https://<username>:<token>@github.com/aetilley/sigclust.git
-```
-into the command line.  Make sure setup.py is downloaded into your directory, and then type:
-```python
-$sudo python setup.py install
 ```
 
 
