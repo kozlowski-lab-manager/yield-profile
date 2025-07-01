@@ -44,38 +44,16 @@ In order to use our program to develop a mechanistic hypothesis for an unknown C
 
 Installation
 ---------------------
-Jupyter notebook file can be downloaded.  To use the file, an environment needs to be created with several dependencies installed.  This can be done by installing python and anaconda.  Make sure the following dependencies are also installed by typing them into the command line:
 
-Install pandas (https://pandas.pydata.org/docs/index.html):
-```python
-$pip install pandas
-```
+There are two ways to use our code.  The first way is by downloading the jupyter notebook, and making sure pandas (https://pandas.pydata.org/docs/index.html), numpy (https://numpy.org/), plotly express (https://plotly.com/python/plotly-express/), matplotlib (https://matplotlib.org/), and sklearn (https://scikit-learn.org/stable/) are installed.  Using this method with the given versions will provide the best reproducibility of all the statistical analysis of our data.  The versions used in the original code are shown below:
+Python version: 3.7
+NumPy version: 1.21.5
+Pandas version: 1.3.5
+Scikit-learn version: 1.0.2
 
-Install numpy (https://numpy.org/):
-```python
-$pip install numpy
-```
-
-Installing plotly express (https://plotly.com/python/plotly-express/):
-```python
-$pip install plotly_express==0.4.0
-```
-
-Installing matplotlib (https://matplotlib.org/):
-```python
-$pip install matplotlib
-```
-
-Installing sklearn (https://scikit-learn.org/stable/):
-```python
-$pip install scikit-learn
-```
-
-Installing UMAP (https://umap-learn.readthedocs.io/en/latest/):
-```python
-$pip install umap-learn
-```
-
+A much simpler way to use our code is by running it from this google colab link:
+https://colab.research.google.com/drive/1lpNB9eyb6NbCjJiDg6dbxWiLqkhallVI?usp=sharing
+This method utilizes much newer software versions, which may provide very minor discrepancies from our original analysis.  However, Colab is ideal for quick use of our method, as it does not require downloading python or any dependencies, and can be done directly from a web browser.  To run code in google colab, simply open the link, upload all required files directly into Colab, and run the first block of code.
 
 License
 -------
